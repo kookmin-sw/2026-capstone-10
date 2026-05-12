@@ -1,0 +1,41 @@
+{
+    "id": "vertical_core_M1",
+    "family": "vertical_core",
+    "space_role_candidates": [
+        "vertical_core",
+        "staircase",
+        "elevator_core"
+    ],
+    "width": 3,
+    "depth": 4,
+    "height": 3.0,
+    "zone": "public",
+    "rotatable": false,
+    "stackable": true,
+    "fixed_core": true,
+    "exterior_required": false,
+    "service_side": null,
+    "natural_light": "none",
+    "ventilation": "natural",
+    "plumbing_required": false,
+    "acoustic_insulation": "medium",
+    "preferred_orientation": "any",
+    "edges": {
+        "north": "connectable",
+        "south": "connectable",
+        "east": "connectable",
+        "west": "connectable"
+    },
+    "connectable_to_families": [
+        "entrance_circulation",
+        "open_public",
+        "connector",
+        "private",
+        "work_flexible",
+        "wet_core"
+    ],
+    "interior_template_options": [
+        "stair_straight",
+        "stair_u_turn"
+    ]
+}

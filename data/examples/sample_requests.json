@@ -1,0 +1,129 @@
+[
+  {
+    "id": "case_001",
+    "family_type": "single resident",
+    "housing_type": "compact house",
+    "road_facing": "south",
+    "required_spaces": [
+      "bedroom 1",
+      "living_room 1",
+      "kitchen",
+      "workspace 1"
+    ],
+    "preferences": [
+      "living room and kitchen should feel open to each other",
+      "workspace should be quiet and slightly separated",
+      "bedroom should stay away from the entrance"
+    ]
+  },
+  {
+    "id": "case_002",
+    "family_type": "couple",
+    "housing_type": "small house",
+    "road_facing": "east",
+    "required_spaces": [
+      "master_bedroom 1",
+      "living_room 1",
+      "kitchen",
+      "bathroom 1"
+    ],
+    "preferences": [
+      "entrance should face the road",
+      "kitchen should be close to living room",
+      "bathroom should be near the bedroom"
+    ]
+  },
+  {
+    "id": "case_003",
+    "family_type": "family with one child",
+    "housing_type": "single family house",
+    "road_facing": "west",
+    "required_spaces": [
+      "master_bedroom 1",
+      "child_bedroom 1",
+      "living_room 1",
+      "kitchen",
+      "bathroom 1"
+    ],
+    "preferences": [
+      "child bedroom should be near the master bedroom",
+      "living room should sit between entrance and private rooms",
+      "kitchen should stay connected to the living room"
+    ]
+  },
+  {
+    "id": "case_004",
+    "family_type": "work from home couple",
+    "housing_type": "single family house",
+    "road_facing": "north",
+    "required_spaces": [
+      "bedroom 2",
+      "living_room 1",
+      "kitchen",
+      "workspace 2",
+      "bathroom 1"
+    ],
+    "preferences": [
+      "two workspaces should not be attached directly to the entrance",
+      "bedrooms should be private and quiet",
+      "bathroom should be accessible from the private side"
+    ]
+  },
+  {
+    "id": "case_005",
+    "family_type": "four person family",
+    "housing_type": "single family house",
+    "road_facing": "south",
+    "required_spaces": [
+      "master_bedroom 1",
+      "child_bedroom 2",
+      "living_room 1",
+      "kitchen",
+      "bathroom 2"
+    ],
+    "preferences": [
+      "children bedrooms should be near each other",
+      "bathrooms should be near the bedroom cluster",
+      "living room and kitchen should form the public zone"
+    ]
+  },
+  {
+    "id": "case_006",
+    "family_type": "large family",
+    "housing_type": "courtyard house prototype",
+    "road_facing": "east",
+    "required_spaces": [
+      "bedroom 4",
+      "living_room 1",
+      "kitchen",
+      "workspace 1",
+      "bathroom 2",
+      "corridor 1"
+    ],
+    "preferences": [
+      "corridor should organize the private rooms",
+      "bedrooms should not all sit on the same side if possible",
+      "bathrooms should stay near the bedroom cluster"
+    ]
+  },
+  {
+    "id": "case_007",
+    "family_type": "mixed use family home",
+    "housing_type": "two level house prototype",
+    "road_facing": "west",
+    "required_spaces": [
+      "bedroom 3",
+      "living_room 1",
+      "kitchen",
+      "workspace 1",
+      "bathroom 2",
+      "corridor 1",
+      "stair 1"
+    ],
+    "preferences": [
+      "stair should connect through the corridor",
+      "workspace should be quiet but not too far from living room",
+      "bathrooms should stay near bedrooms and vertical core"
+    ]
+  }
+]

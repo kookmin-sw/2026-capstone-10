@@ -1,0 +1,36 @@
+{
+    "id": "wet_core_M1",
+    "family": "wet_core",
+    "space_role_candidates": [
+        "kitchen"
+    ],
+    "width": 6,
+    "depth": 6,
+    "height": 3.0,
+    "zone": "public",
+    "rotatable": true,
+    "stackable": true,
+    "fixed_core": true,
+    "exterior_required": false,
+    "service_side": "south",
+    "natural_light": "preferred",
+    "ventilation": "natural",
+    "plumbing_required": true,
+    "acoustic_insulation": "medium",
+    "preferred_orientation": "north",
+    "edges": {
+        "north": "connectable",
+        "south": "service",
+        "east": "connectable",
+        "west": "exterior"
+    },
+    "connectable_to_families": [
+        "open_public",
+        "connector",
+        "wet_core"
+    ],
+    "interior_template_options": [
+        "kitchen_linear",
+        "kitchen_compact"
+    ]
+}

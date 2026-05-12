@@ -1,0 +1,38 @@
+{
+    "id": "work_flexible_M1",
+    "family": "work_flexible",
+    "space_role_candidates": [
+        "workspace",
+        "study",
+        "home_office"
+    ],
+    "width": 5,
+    "depth": 6,
+    "height": 3.0,
+    "zone": "semi_private",
+    "rotatable": true,
+    "stackable": true,
+    "fixed_core": false,
+    "exterior_required": true,
+    "service_side": null,
+    "natural_light": "preferred",
+    "ventilation": "natural",
+    "plumbing_required": false,
+    "acoustic_insulation": "high",
+    "preferred_orientation": "north",
+    "edges": {
+        "north": "window_preferred",
+        "south": "connectable",
+        "east": "connectable",
+        "west": "connectable"
+    },
+    "connectable_to_families": [
+        "connector",
+        "private",
+        "open_public"
+    ],
+    "interior_template_options": [
+        "workspace_basic",
+        "workspace_library"
+    ]
+}
