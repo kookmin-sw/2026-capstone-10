@@ -587,7 +587,7 @@ required_spaces와 preferences는 빈 배열로 두세요.
         ]);
 
         try {
-          const svgRes = await fetch('http://localhost:8000/generate-svg', {
+          const svgRes = await fetch('/api/generate-svg', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(pipelineInput),
@@ -724,7 +724,7 @@ required_spaces와 preferences는 빈 배열로 두세요.
 
     setIsAddingRoomLoading(true);
     try {
-      const res = await fetch('http://localhost:8000/add-room', {
+      const res = await fetch('/api/add-room', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -803,7 +803,7 @@ required_spaces와 preferences는 빈 배열로 두세요.
 
     setIsRemovingRoomLoading(true);
     try {
-      const res = await fetch('http://localhost:8000/delete-room', {
+      const res = await fetch('/api/delete-room', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ layout: currentLayout, room_id: targetId }),
