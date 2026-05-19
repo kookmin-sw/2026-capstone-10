@@ -9,9 +9,8 @@ AIchitect는 사용자의 자연어(문장) 설계 요구를 입력받아, 건�
 
 ## 2. 소개 영상
 <!-- 유튜브 등 프로젝트 소개 영상 링크를 아래에 추가하세요 -->
-[![프로젝트 소개 영상](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![프로젝트 소개 영상](https://img.youtube.com/vi/6OoxO3GtnDc/0.jpg)](https://youtu.be/6OoxO3GtnDc)
 
-*(위의 `YOUR_VIDEO_ID` 부분을 실제 유튜브 영상 ID로 변경해 주세요)*
 
 ## 3. 팀 소개
 | 이름 | 학번 | 역할 (Role) | GitHub |
